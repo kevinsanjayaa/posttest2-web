@@ -1,0 +1,103 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*========(global)==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1:hover {
+    color: #6b090a;
+}
+
+a:hover {
+    color: #1c1c1c;
+}
+section {
+    width: 20%;
+    margin: 100px 40px;
+}
+
+.navbar {
+    background-image: url(./bg2/High_resolution_wallpaper_background_ID_77700812861.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    color:whitesmoke;
+    text-shadow: 3px 2px gray;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Poppins';
+
+}
+.nav_links {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nav_links li {
+    margin: 0 30px;  
+    color: azure;
+}
+ul{
+    list-style: none;
+}
+.title {
+    text-align: center;
+    font-size: 3vmin;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(26, 36, 173);
+    text-shadow: rgb(14, 12, 12);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+
+}
+
+.list1 {
+    align-items: center;
+    font-size: larger;
+    font-family: 'Poppins';
+}
+
+.list2 {
+    align-items: center;
+    font-size: larger;
+    font-family: 'Poppins';
+}
+
+.col {
+    align-items:center ;
+}
+
+.col2 {
+    margin: 10%;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px
+}

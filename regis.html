@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="shortcut icon" href="./bg1/Lungmen.png" type="image/x-icon"> 
+    <title>Lungmen Project | Pendaftaran</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">LUNGMEN PROJECT</h1>
+        
+        <ul class="nav_links">
+            <li><a href="./awal1.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./kategori.html">Kategori</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="container">
+        <h1 class="form-title">REGISTER</h1>
+        <form action="#" id="form">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fullName" name="nama" id="nama">Nama Lengkap</label>
+                    <input type="text"
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Masukkan Nama Lengkap">
+                </div>
+                <div class="user-input-box">
+                    <label for="email" name ="email" id="email">Email</label>
+                    <input type="email"
+                            class="input"
+                            id="#email"
+                            name="#email"
+                            placeholder="Masukkan Email">
+                </div>
+                <div class="user-input-box">
+                    <label for="password">Password</label>
+                    <input type="password"
+                            class="input"
+                            id="password"
+                            name="password"
+                            placeholder="Masukkan Password">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="phoneNumber" name="notelp" id="notelp">No. Telpon</label>
+                    <input type="text"
+                            id="phoneNumber"
+                            class="input"
+                            name="phoneNumber"
+                            placeholder="Masukkan No. Telpon"/>
+                </div>
+            </div>
+            <div class="game-detail-box">
+                <span class="game-title">Pilih Game</span>
+                <div class="game-category">
+                    <input type="radio" name="game" id="game" value="Arknights">
+                    <label for="arknights">Arknights</label>
+                    <input type="radio" name="game" id="game" value="Genshin Impact">
+                    <label for="genshin">Genshin Impact</label>
+                </div>
+            </div>
+            <div class="paket">
+                <span class="kategori">Pilih Paket</span>
+                <div class="paketgame">
+                    <input type="checkbox" name="Paket" id="paket" value="Standard">
+                    <label for="paket">Standar</label>
+                </div>
+            </div>
+            <div class="file">
+                <label for="filebaru">Masukkan SS-an Akun kamu :</label>
+                <input type="file" id="filebaru" name="filebaru">
+            </div>
+            <div class="form-submit-btn">
+                <input type="submit" value="DAFTAR" id="submit">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="daftar.js"></script>
+</html>

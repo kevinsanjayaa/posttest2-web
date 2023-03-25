@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(./bg4/Genshin.Impact.full.3501128.png);
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    height: 58%;
+    background-color: rgb(255, 255, 255);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px rgb(80, 80, 80);
+}
+
+.form-title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(10, 10, 10);
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+
+.user-input-box label {
+    width: 95%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+    padding-top: 100px;
+}
+
+
+.form-submit-btn{
+    margin-top: 40px;
+}
+
+.form-submit-btn input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    color: whitesmoke;
+    background: rgba(124, 10, 124, 0.815);
+}
+
+.form-submit-btn input:hover {
+    background: rgba(139, 1, 231, 0.993);
+    color: whitesmoke;
+}

@@ -1,0 +1,120 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*========(global)==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+
+/* Navbar */
+
+ul{
+    list-style: none;
+}
+
+p {
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    color:whitesmoke;
+    text-shadow: 3px 2px #585858;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Poppins';
+}
+.nav_links {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nav_links li {
+    margin: 0 30px;  
+}
+
+.logo:hover {
+    color: #6b090a;
+}
+
+header {
+    background-image: url(bg1/chen.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+}
+.header-content{
+    margin-bottom: 300px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+    position: absolute;
+    font-family:'Poppins';
+    text-shadow: 3px 3px grey;
+    text-align: left;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family:'Poppins';
+    text-shadow: 3px 3px grey;
+    text-align: left;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-family: 'Poppins';
+}
+
+.ctn1 {
+    padding: 15px 100px;
+    background: #920c0e;
+    border-radius: 30px;
+    color: white;
+    height: 100px;
+    font-family: 'Poppins';
+}
+
+a:hover {
+    color: rgb(185, 185, 185);
+}
+
+.ctn1:hover {
+    background-color:#0e085c;
+}
+
+footer {
+    background-color: rgb(26, 24, 24);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
